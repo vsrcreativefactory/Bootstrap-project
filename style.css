@@ -1,0 +1,29 @@
+/* .container {
+    border: 2px solid blueviolet;
+}
+
+.row {
+    border: 2px solid rgb(215, 42, 65);
+}
+
+.col-4, .col-sm-8{
+    border: 2px solid green;
+    background-color: rgb(53, 194, 191);
+} */
+
+body {
+    background-color: #0dcaf0;
+}
+
+.custom-card {
+    border-radius: 180px 180px 0 0; /* Rounded top corners, flat bottom corners */
+    overflow: hidden; /* Ensures content stays within the border */
+  }
+  
+  .custom-card .card-body {
+    padding: 15px; /* Optional: Adjust spacing inside the card */
+  }
+.col-4 {
+    padding-left: 70px;
+}
+  
